@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<script src="./Calendar_Generator.js" type="text/javascript" charset="UTF-8"></script>
+<head>
+  <title>Calendário</title>
+  <style>
+  </style>
+  <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+  <h1>
+  </h1>
+
+  <div class="filters_JS">
+    <div class="dateIn">
+      <input value="" min=""  max="" style="width: 17em;" type="date" placeholder="startDate"  name="startDateSearchKeyword"/>
+      <span>a</span>
+      <input  value="" style="width: 17em;" min="" max="" type="date" placeholder="endDate"  name="endDateSearchKeyword"/>
+    </div>
+    <a href="#" class="div_button_search bold" onclick="usersSearch.dateFilter()">Filter</a>
+       
+  </div>
+      
+
+
+  <div class="Js_calendar">
+
+  </div>
+  <div class="Js_Traditional_calendar">
+
+  </div>
+
+    <!-- Chamada para a função que preencherá os meses -->
+    <script>
+      setLanguage('en');
+      usersSearch.init();
+    </script>
+ 
+</body>
+</html>

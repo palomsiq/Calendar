@@ -1,0 +1,60 @@
+.Js_calendar{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+
+.calendar {
+  border: 1px solid black;
+  font:
+    16px "Open Sans",
+    Helvetica,
+    Arial,
+    sans-serif;
+  border-spacing: 0;
+  /*border-collapse: collapse;*/
+  margin-top: 10px;
+}
+
+.calendar th,
+.calendar td {
+  border: 1px solid black;
+  padding: 4px 6px;
+  text-align: center;
+  border:none;
+}
+
+.thead_calendar tr:last-of-type > th:nth-of-type(1) {
+  background-color: white;
+}
+
+.tbody_calendar tr > th:first-of-type {
+  text-align: left;
+  background-color: rgba(43, 85, 116, 0.2);;
+}
+
+
+
+.calendar .button{
+  width: 2em;
+  height: 3px;
+  background: #11d22f;
+  border-radius: 10px;
+  display: block;
+  margin-top:5px;
+
+}
+    
+.wkd{
+    background-color: rgba(5, 100, 183, 0.25);
+}
+
+.Js_Traditional_calendar{
+  display: flex;
+  width: 60em;
+  flex-wrap: wrap;
+}
+
+.tcalendar_div{
+
+  padding: 10px;
+}
