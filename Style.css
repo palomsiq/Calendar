@@ -50,9 +50,10 @@
 
 .Js_Traditional_calendar{
   display: flex;
-  width: 60em;
+  width: 100%;
   flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
+  justify-content: flex-end;
 }
 
 .tcalendar_div{
