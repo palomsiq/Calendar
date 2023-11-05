@@ -51,7 +51,8 @@
 .Js_Traditional_calendar{
   display: flex;
   width: 60em;
-  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .tcalendar_div{
